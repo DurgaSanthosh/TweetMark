@@ -1,6 +1,8 @@
 body{
     margin:0px;
     padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .landing_container{
     background-image: url("../../assets/tweetmark-01.png");
