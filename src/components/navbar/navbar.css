@@ -8,7 +8,7 @@
     top: 0px;
     width: 100vw;
     padding-top: 20px;
-    height: auto;
+    height: 40px;
     padding-bottom: 15px;
     background: none;
 }
@@ -33,4 +33,11 @@
 .navbar a {
     color: black;
     text-decoration: none;
+}
+.navlogo{
+height: 60px;
+width: auto;
+position: relative;
+top:-20px;
+left: -100px;
 }
