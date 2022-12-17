@@ -11,14 +11,21 @@
     z-index: 100;
     width: 100vw;
     padding-top: 10px;
+    
     height: auto;
     padding-bottom: 10px;
     z-index: 100;
     background-color: rgba(101,147,227,0.242);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .nav_title{
     padding-top: 10px;
-    
+    color: white;
+    flex-grow: 1;
+    padding-left: .75rem;
 }
 
 .navbar ul {
@@ -29,7 +36,8 @@
     width: auto;
     justify-content: space-evenly;
     color:rgba(0,23,100);
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
+    flex-grow: 9;
 }
 
 .navbar li {
@@ -37,8 +45,9 @@
     flex-wrap: nowrap;
     color: rgb(0, 23, 100);
     font-size: 1rem;
-    font-family:monospace;
+    font-family: 'Poppins', sans-serif;
     height: .5rem;
+    padding-top: 10px;
 
 }
 
