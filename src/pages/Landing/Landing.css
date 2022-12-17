@@ -1,5 +1,9 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
 .Landing_container{
-    background-image: url("../../assets/tweetMarkBg-01.svg");
+    background-image: url("../../assets/tweetmark-01.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -17,6 +21,8 @@
     padding: 20px;
     background-color: rgb(41, 41, 159);
     color: mintcream;
+    border: none;
+    border-radius: 30px;
     
     
 }
