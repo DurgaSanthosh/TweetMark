@@ -7,16 +7,21 @@ import "./Landing.css"
 const Landing = () => {
 
   const firebaseContext = useContext(BaseContext)
+
+  async function signIn(){
+    await firebaseContext.signUserIn()
+  }
  useEffect(()=>{
  console.log(firebaseContext)
  }, [])
+ 
 
 
   return (
     <div className='Landing_container'>
         
     <div>
-        <button className='landing_loginbtn' >Login with Twitter</button>
+        <button onClick={signIn} className='landing_loginbtn' >Login with Twitter</button>
     </div>
     </div>
   )

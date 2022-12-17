@@ -1,9 +1,9 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import "firebase/auth"
+import { TwitterAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 
-// Your web app's Firebase configuration
+
 const firebaseConfig = {
   apiKey: "AIzaSyBnQS2h7oCDfERXpGdWQQFGa1AoQxdmwLc",
   authDomain: "tweetmarkweb.firebaseapp.com",
@@ -17,6 +17,17 @@ const firebaseConfig = {
 class Firebase{
   constructor(){
     this.app = initializeApp(firebaseConfig);
+  }
+
+  signUserIn = () =>{
+    
+    const provider = new this.app.auth.TwitterAuthProvider();
+        this.app
+        .auth()
+        .signInWithPopup(provider)
+    .then((user) => {
+      console.log(user)
+    })
   }
 }
 
