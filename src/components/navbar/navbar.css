@@ -1,16 +1,19 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 .navbar {
+
     position: sticky;
     top: 0px;
+    z-index: 100;
     width: 100vw;
     padding-top: 20px;
     height: auto;
     padding-bottom: 15px;
-    background: none;
+    background-color: rgba(96, 143, 224, 0.242);
 }
 
 .navbar ul {
@@ -25,12 +28,15 @@
 .navbar li {
     cursor: pointer;
     flex-wrap: nowrap;
-    color: black;
+    color: rgb(0, 23, 100);
     font-size: 1rem;
+    font-family:monospace;
+
 }
 
 
 .navbar a {
-    color: black;
+    color: rgb(0, 23, 100);
     text-decoration: none;
+    font-family: sans-serif;
 }
