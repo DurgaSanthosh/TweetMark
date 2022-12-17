@@ -1,5 +1,5 @@
 import React from "react";
-import Firebase from "./base";
+import Firebase from "./firebase";
 
 export const BaseContext = React.createContext(null);
 
