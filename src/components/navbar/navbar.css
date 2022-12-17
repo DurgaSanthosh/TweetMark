@@ -13,7 +13,8 @@
     padding-top: 20px;
     height: auto;
     padding-bottom: 15px;
-    background-color: rgba(101, 147, 227, 0.242);
+    z-index: 100;
+    background-color: rgba(101,147,227,0.242);
 }
 
 .navbar ul {
@@ -23,6 +24,8 @@
     display: flex;
     width: auto;
     justify-content: space-evenly;
+    color:rgba(0,23,100);
+    font-family: monospace;
 }
 
 .navbar li {
@@ -36,7 +39,15 @@
 
 
 .navbar a {
-    color: rgb(0, 23, 100);
+    color: rgb(0,23,100);
     text-decoration: none;
     font-family: sans-serif;
+    font-family: sans-serif;
+}
+.navlogo{
+height: 60px;
+width: auto;
+position: relative;
+top:-20px;
+left: -100px;
 }
