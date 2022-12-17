@@ -1,8 +1,8 @@
 import React, {useState, useEffect, useContext} from 'react'
 import { AuthContext } from '../../utils/AuthContext'
 import { useNavigate } from 'react-router-dom'
-import "./Feed.css"
 
+import "./Feed.css"
 
 
 
