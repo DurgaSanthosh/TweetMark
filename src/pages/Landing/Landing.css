@@ -1,0 +1,22 @@
+.Landing_container{
+    background-image: url("../../assets/tweetMarkBg-01.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.landing_loginbtn{
+    padding: 20px;
+    background-color: rgb(41, 41, 159);
+    color: mintcream;
+    
+    
+}
