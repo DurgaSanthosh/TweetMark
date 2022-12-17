@@ -7,9 +7,14 @@ import "./Landing.css"
 const Landing = () => {
 
   const firebaseContext = useContext(BaseContext)
+
+  async function signIn(){
+    await firebaseContext.signUserIn()
+  }
  useEffect(()=>{
  console.log(firebaseContext)
  }, [])
+ 
 
 
   return (
@@ -17,7 +22,7 @@ const Landing = () => {
     <div className='landing_title'>TweetMark</div>    
     <div className='landing_tagline'>Choose what u see, No distractions in the frame!</div>
     <div>
-        <button className='landing_loginbtn' >Login with Twitter</button>
+        <button onClick={signIn} className='landing_loginbtn' >Login with Twitter</button>
     </div>
     </div>
   )

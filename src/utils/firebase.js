@@ -1,9 +1,9 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import "firebase/auth"
+import { TwitterAuthProvider, getAuth, signInWithPopup} from "firebase/auth";
 
-// Your web app's Firebase configuration
+
 const firebaseConfig = {
   apiKey: "AIzaSyBnQS2h7oCDfERXpGdWQQFGa1AoQxdmwLc",
   authDomain: "tweetmarkweb.firebaseapp.com",
@@ -17,6 +17,34 @@ const firebaseConfig = {
 class Firebase{
   constructor(){
     this.app = initializeApp(firebaseConfig);
+  }
+
+  signUserIn = async () =>{
+    const provider = new TwitterAuthProvider();
+    const auth = getAuth();
+    auth.languageCode = 'it'; 
+    signInWithPopup(auth, provider)
+  .then((result) => {
+    // This gives you a the Twitter OAuth 1.0 Access Token and Secret.
+    // You can use these server side with your app's credentials to access the Twitter API.
+    const credential = TwitterAuthProvider.credentialFromResult(result);
+    const token = credential.accessToken;
+    const secret = credential.secret;
+
+    // The signed-in user info.
+    const user = result.user;
+    // ...
+  }).catch((error) => {
+    // Handle Errors here.
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // The email of the user's account used.
+    const email = error.customData.email;
+    // The AuthCredential type that was used.
+    const credential = TwitterAuthProvider.credentialFromError(error);
+    // ...
+  });
+
   }
 }
 
