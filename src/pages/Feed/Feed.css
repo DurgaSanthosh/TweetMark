@@ -2,13 +2,15 @@
     display: flex;
     flex-direction: row;
     top: 50rem;
-}
-.feed_content{
     background-image: url("../../assets/doodle.png");
     background-size: cover;
-    
+    background-repeat: no-repeat;
+    background-position: center;
     
     background-attachment: fixed;
+}
+.feed_content{
+    
     width: 100%;
     height: 100rem;
     
@@ -22,5 +24,12 @@
 }
 .feed_sidenav{
     background-color: darkblue;
-    width: 10rem;
+    width: 20rem;
+    height: 100vh;
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+
+    
+
+    background: linear-gradient(89.14deg, #000102 -10.57%, #006BB2 99.33%);
+
 }
