@@ -1,16 +1,20 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 .navbar {
+
     position: sticky;
     top: 0px;
+    z-index: 100;
     width: 100vw;
     padding-top: 20px;
-    height: 40px;
+    height: auto;
     padding-bottom: 15px;
-    background: none;
+    z-index: 100;
+    background-color: rgba(101,147,227,0.242);
 }
 
 .navbar ul {
@@ -20,19 +24,25 @@
     display: flex;
     width: auto;
     justify-content: space-evenly;
+    color:rgba(0,23,100);
+    font-family: monospace;
 }
 
 .navbar li {
     cursor: pointer;
     flex-wrap: nowrap;
-    color: black;
+    color: rgb(0, 23, 100);
     font-size: 1rem;
+    font-family:monospace;
+
 }
 
 
 .navbar a {
-    color: black;
+    color: rgb(0,23,100);
     text-decoration: none;
+    font-family: sans-serif;
+    font-family: sans-serif;
 }
 .navlogo{
 height: 40px;
