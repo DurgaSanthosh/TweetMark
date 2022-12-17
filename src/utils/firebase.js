@@ -1,7 +1,8 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
+ //Import the functions you need from the SDKs you need
+ import app from "firebase/compat/app";
 import "firebase/auth"
-import { TwitterAuthProvider, getAuth, signInWithPopup} from "firebase/auth";
+ import { TwitterAuthProvider, getAuth, signInWithPopup, getRedirectResult} from "firebase/auth";
+
 
 
 const firebaseConfig = {
@@ -13,10 +14,11 @@ const firebaseConfig = {
   appId: "1:394296905189:web:19e2c2ef9479d5b846f30c"
 };
 
-// Initialize Firebase
+
+
 class Firebase{
   constructor(){
-    this.app = initializeApp(firebaseConfig);
+    this.app = app.initializeApp(firebaseConfig);
   }
 
   signUserIn = async () =>{
@@ -33,6 +35,7 @@ class Firebase{
 
     // The signed-in user info.
     const user = result.user;
+
     // ...
   }).catch((error) => {
     // Handle Errors here.

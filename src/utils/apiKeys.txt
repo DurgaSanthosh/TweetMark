@@ -5,3 +5,5 @@ api key secret: 12RwgemOZ0LB4byAHWXRKBaTL9E2tz0H4Ysr1lDdFK6GgVrOlC
 bearer token: AAAAAAAAAAAAAAAAAAAAADoDkgEAAAAA0WfQi6F28ysL4Aay9kqNX3BynJQ%3DP3A9ItvcxRXJUgXxfU0PAh8RvfBXMQ2VUbdEwJNSYFyIf0Spyo
 
 firebase authentication callback url : https://tweetmarkweb.firebaseapp.com/__/auth/handler
+
+client secret : nRp6nUL4RFMBvsQCOK59RNxLQZ34aKgIXgLOqu4zskCQgBPz-y
