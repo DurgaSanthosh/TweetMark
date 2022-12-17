@@ -6,9 +6,13 @@ function Navbar() {
   return (
     <div className='navbar'>
         <ul>
-        <div className='navlog'><li ><img src={NavLogo} className='navlogo'></img></li>
-        <h3>TweetMark</h3>
+        <div className='navlog'>
+          <img src={NavLogo} className='navlogo'></img>
+          <div className="nav_title">TweetMark</div>
         </div>
+        <li></li>
+        <li></li>
+        <li></li>
         <li>Home</li>
         <li>About</li>
         <li>Contact us</li>
