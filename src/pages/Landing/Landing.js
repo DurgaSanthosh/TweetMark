@@ -13,8 +13,9 @@ const Landing = () => {
 
 
   return (
-    <div className='Landing_container'>
-        
+    <div className='landing_container'>
+    <div className='landing_title'>TweetMark</div>    
+    <div className='landing_tagline'>Choose what u see, No distractions in the frame!</div>
     <div>
         <button className='landing_loginbtn' >Login with Twitter</button>
     </div>
