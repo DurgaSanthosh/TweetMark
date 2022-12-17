@@ -31,7 +31,7 @@ const Feed = () => {
         </div>
         <div className='feed_content'>
             <div>
-                feed1
+                <h1> feed </h1>
             </div>
 
         </div>
