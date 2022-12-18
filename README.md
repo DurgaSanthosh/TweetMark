@@ -20,5 +20,9 @@ React JS, Twitter API, Firebase, Postman, Netlify, Github
 ## Functionalities
 The website aims to give a personalised experience to the users by collecting relevant information and showing only the tweets which align with the user’s field of interest saving user's time in this busy world with a plethora of information overflooding their Twitter feeds.
 ## Steps to run the project
-## References
+ Commands and installations needed:
+* Fork and clone the repository
+* Install the dependencies using *npm install*
+* *npm start* to host it locally
 ## Screenshots
+[Screenshot folder](https://drive.google.com/drive/folders/13X2kd3ULsHhwdvGGtCwFY1pk9f1JNnks?usp=sharing)
