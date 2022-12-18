@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import { getAuth } from "firebase/auth";
 import app from "./firebase";
 
-//export const AuthContextProvider = (props) =>{
+// export const AuthContextProvider = (props) =>{
   
    // const app = firebase.app()
   //  console.log(app)
@@ -40,7 +40,7 @@ import app from "./firebase";
      const auth = getAuth(app.app);
      const [user, loading, error] = useAuthState(auth);
 
-     
+
    
      
    
