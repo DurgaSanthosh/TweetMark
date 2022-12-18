@@ -15,11 +15,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-firebase-hooks": "^5.1.1",
+    "react-mailto": "^0.4.0",
     "react-router-dom": "^6.5.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "react-tweet-embed": "^2.0.0",
     "react-twitter-embed": "^4.0.4",
-    "react-scroll": "^1.8.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
