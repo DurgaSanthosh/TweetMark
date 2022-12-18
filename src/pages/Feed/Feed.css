@@ -49,6 +49,7 @@
     font-weight: 600;
     font-family: monospace;
     color: white;
+    position: sticky;
 }
 .sidenav_feeds{
     font-size: 1.2rem;
