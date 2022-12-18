@@ -26,3 +26,5 @@ The website aims to give a personalised experience to the users by collecting re
 * *npm start* to host it locally
 ## Screenshots
 [Screenshot folder](https://drive.google.com/drive/folders/13X2kd3ULsHhwdvGGtCwFY1pk9f1JNnks?usp=sharing)
+## Detailed Document
+[Detailed Document](https://docs.google.com/document/d/1rBmYA3zLyRUzZ5r2V_p3gvpwBVxGlrGjgx_xbV4gUI0/edit?usp=sharing)
