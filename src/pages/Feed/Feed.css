@@ -52,6 +52,7 @@
     font-weight: 600;
     font-family: monospace;
     color: white;
+    position: sticky;
 }
 .sidenav_feeds{
     font-size: 1.2rem;
@@ -90,9 +91,7 @@
     border-radius: 9px;
     border-color: white;
 }
-.feed_content{
 
-}
 hr{
     width: 16em;
     opacity: 30%;

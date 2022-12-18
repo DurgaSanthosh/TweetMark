@@ -5,6 +5,7 @@ import { AuthContext } from '../../utils/AuthContext'
 
 
 
+
 const Landing = () => {
 
   const user = useContext(AuthContext)
@@ -25,15 +26,19 @@ const Landing = () => {
   return (
 
     <div>
+      <section id='home'>
       <div className='landing_container'>
             <div className='landing_title'>TweetMark</div>
-            <div className='landing_tagline'>Choose what u see, No distractions in the frame!</div>
+            <div className='landing_tagline'>Never miss out, Mark it out!</div>
             <div>
               <button onClick={signIn} className='landing_loginbtn' >Login with Twitter</button>
             </div>
             
-          </div>
-      
+      </div>
+      </section>
+      <section id='about'>
+
+      </section>
 
     </div>
 
