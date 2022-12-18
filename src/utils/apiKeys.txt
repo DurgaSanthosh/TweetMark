@@ -6,4 +6,7 @@ bearer token: AAAAAAAAAAAAAAAAAAAAADoDkgEAAAAA0WfQi6F28ysL4Aay9kqNX3BynJQ%3DP3A9
 
 firebase authentication callback url : https://tweetmarkweb.firebaseapp.com/__/auth/handler
 
+
+client id: SzNFMVA1S2ItcVZ1TV9nRVVxWjk6MTpjaQ
+
 client secret : nRp6nUL4RFMBvsQCOK59RNxLQZ34aKgIXgLOqu4zskCQgBPz-y

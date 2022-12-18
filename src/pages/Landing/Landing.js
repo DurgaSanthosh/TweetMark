@@ -1,4 +1,5 @@
 import React, { useEffect, useContext } from 'react'
+
 import { BaseContext } from '../../utils/baseContext'
 import "./Landing.css"
 import { AuthContext } from '../../utils/AuthContext'
@@ -19,9 +20,6 @@ const Landing = () => {
     console.log(user)
    if (user?.providerData[0]?.uid) window.location.assign('/feed')
   }, [user])
-
-  console.log(user)
-
 
   return (
 

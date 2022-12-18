@@ -1,8 +1,6 @@
 body{
     margin:0px;
     padding: 0px;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 .landing_container{
     background-image: url("../../assets/tweetmark-01.png");
@@ -20,6 +18,9 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+        overflow-y: hidden;
+    
 }
 .landing_title{
     color:rgb(18, 60, 158);
