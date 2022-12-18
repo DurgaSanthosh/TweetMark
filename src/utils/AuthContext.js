@@ -39,8 +39,8 @@ import app from "./firebase";
    export const AuthContextProvider = ({ children }) => {
      const auth = getAuth(app.app);
      const [user, loading, error] = useAuthState(auth);
+
      
-    console.log(user)
    
      
    
