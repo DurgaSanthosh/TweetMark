@@ -58,6 +58,10 @@
     color: white;
     padding-top:.85rem;
     padding-bottom:.95rem;
+    cursor: pointer;
+}
+.sidenav_feeds:hover{
+    font-size: 1.7rem;
 }
 .sidenav_spaces{
     font-size: 1.2rem;
@@ -66,7 +70,11 @@
     color: white;
     padding-top:.85rem;
     padding-bottom:.95rem;
+    cursor: pointer;
    
+}
+.sidenav_spaces:hover{
+    font-size: 1.7rem;
 }
 .sidenav_button{
     padding-top: 2.5rem;
@@ -76,7 +84,7 @@
     font-weight: 200;
     font-family: monospace;
     color: white;
-
+    cursor: pointer;
     box-sizing: border-box;
     
 

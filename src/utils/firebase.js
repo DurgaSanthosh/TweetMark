@@ -1,7 +1,8 @@
  //Import the functions you need from the SDKs you need
  import app from "firebase/compat/app";
 import "firebase/auth"
- import { TwitterAuthProvider, getAuth, signInWithPopup, getRedirectResult} from "firebase/auth";
+ import { TwitterAuthProvider, getAuth, signInWithPopup, getRedirectResult, signOut} from "firebase/auth";
+import { Router } from "react-router-dom";
 
 
 
@@ -49,6 +50,17 @@ class Firebase{
   });
 
   }
+  
+ signUserOut = async() =>{
+  const auth = getAuth();
+signOut(auth).then(() => {
+  console.log('signed out')
+  window.location.assign('/landing')
+}).catch((error) => {
+  console.log(error)
+});
+
+ }
 }
 
 
